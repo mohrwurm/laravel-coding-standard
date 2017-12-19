@@ -76,7 +76,10 @@
 	<!--
 	Doc block comment format and spacing.
 	-->
-	<rule ref="Generic.Commenting.DocComment"/>
+	<rule ref="Generic.Commenting.DocComment">
+		<exclude name="Generic.Commenting.DocComment.MissingShort"/>
+		<exclude name="Generic.Commenting.DocComment.ShortNotCapital"/>
+	</rule>
 	<!--
 	Warning for todo items.
 	-->
