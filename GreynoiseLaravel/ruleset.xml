@@ -34,11 +34,17 @@
 	<!--
 	Classes MUST have a doc block comment.
 	-->
-	<rule ref="Squiz.Commenting.ClassComment"/>
+	<rule ref="Squiz.Commenting.ClassComment">
+		<exclude name="Squiz.Commenting.ClassComment.MissingPackageTag"/>
+		<exclude name="Squiz.Commenting.ClassComment.MissingLicenseTag"/>
+	</rule>
 	<!--
 	Checks class comment tag format and order.
 	-->
-	<rule ref="GreynoiseLaravel.Commenting.ClassComment"/>
+	<rule ref="GreynoiseLaravel.Commenting.ClassComment">
+		<exclude name="GreynoiseLaravel.Commenting.ClassComment.MissingPackageTag"/>
+		<exclude name="GreynoiseLaravel.Commenting.ClassComment.MissingLicenseTag"/>
+	</rule>
 	<!--
 	Allow class tags.
 	-->
