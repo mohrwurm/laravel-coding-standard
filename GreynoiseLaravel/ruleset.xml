@@ -63,6 +63,7 @@
 	Methods and functions MUST have a doc block comment.
 	-->
 	<rule ref="GreynoiseLaravel.Commenting.FunctionComment">
+		<exclude name="GreynoiseLaravel.Commenting.FunctionComment.SpacingAfterParamType"/>
 		<exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
 	</rule>
 	<rule ref="Squiz.Commenting.FunctionComment.ParamCommentFullStop">
