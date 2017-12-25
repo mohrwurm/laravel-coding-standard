@@ -64,7 +64,7 @@
 	-->
 	<rule ref="GreynoiseLaravel.Commenting.FunctionComment">
 		<exclude name="GreynoiseLaravel.Commenting.FunctionComment.SpacingAfterParamType"/>
-		<exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
+		<exclude name="GreynoiseLaravel.Commenting.FunctionComment.MissingParamComment"/>
 	</rule>
 	<rule ref="Squiz.Commenting.FunctionComment.ParamCommentFullStop">
 		<severity>0</severity>
