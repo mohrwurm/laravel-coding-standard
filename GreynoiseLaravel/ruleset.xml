@@ -45,6 +45,7 @@
 	Checks class comment tag format and order.
 	-->
 	<rule ref="GreynoiseLaravel.Commenting.ClassComment">
+		<exclude name="GreynoiseLaravel.Commenting.FileComment.Missing"/>
 		<exclude name="GreynoiseLaravel.Commenting.ClassComment.MissingPackageTag"/>
 		<exclude name="GreynoiseLaravel.Commenting.ClassComment.MissingLicenseTag"/>
 	</rule>
