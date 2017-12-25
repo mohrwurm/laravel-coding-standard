@@ -26,20 +26,20 @@
 	Files MUST have a doc block comment.
 	Checks file comment tag format and order.
 	-->
-	<!--
 	<rule ref="GreynoiseLaravel.Commenting.FileComment">
         <exclude name="GreynoiseLaravel.Commenting.FileComment.Missing"/>
+        <exclude name="GreynoiseLaravel.Commenting.FileComment.NoEmptyLineAfterFileDocComment"/>
 		<properties>
 			<property name="error" value="true"/>
 		</properties>
 	</rule>
-	-->
 	<!--
 	Classes MUST have a doc block comment.
 	-->
 	<rule ref="Squiz.Commenting.ClassComment">
 		<exclude name="Squiz.Commenting.ClassComment.MissingPackageTag"/>
 		<exclude name="Squiz.Commenting.ClassComment.MissingLicenseTag"/>
+		<exclude name="Squiz.Commenting.ClassComment.NoEmptyLineAfterFileDocComment"/>
 	</rule>
 	<!--
 	Checks class comment tag format and order.
