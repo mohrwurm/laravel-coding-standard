@@ -107,7 +107,10 @@
 	has a trailing comma.
 	Checks arrays are declared as "[]" not "array()".
 	-->
-	<rule ref="GreynoiseLaravel.Arrays.ArrayDeclaration"/>
+	<rule ref="GreynoiseLaravel.Arrays.ArrayDeclaration">
+		<exclude name="GreynoiseLaravel.Arrays.ArrayDeclaration.DoubleArrowNotAligned"/>
+		<exclude name="GreynoiseLaravel.Arrays.ArrayDeclaration.ValueNotAligned"/>
+	</rule>
 	<!--
 	Checks statments on subsequent lines are aligned. (line up the "=").
 	-->
