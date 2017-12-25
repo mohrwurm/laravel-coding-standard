@@ -26,12 +26,14 @@
 	Files MUST have a doc block comment.
 	Checks file comment tag format and order.
 	-->
+	<!--
 	<rule ref="GreynoiseLaravel.Commenting.FileComment">
         <exclude name="GreynoiseLaravel.Commenting.FileComment.Missing"/>
 		<properties>
 			<property name="error" value="true"/>
 		</properties>
 	</rule>
+	-->
 	<!--
 	Classes MUST have a doc block comment.
 	-->
@@ -85,10 +87,12 @@
 	<!--
 	Doc block comment format and spacing.
 	-->
+	<!--
 	<rule ref="Generic.Commenting.DocComment">
 		<exclude name="Generic.Commenting.DocComment.MissingShort"/>
 		<exclude name="Generic.Commenting.DocComment.ShortNotCapital"/>
 	</rule>
+	-->
 	<!--
 	Warning for todo items.
 	-->
