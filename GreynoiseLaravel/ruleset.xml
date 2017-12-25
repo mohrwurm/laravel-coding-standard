@@ -20,6 +20,7 @@
 	<exclude-pattern>*/Exceptions/Handler.php</exclude-pattern>
 	<exclude-pattern>*/Http/Kernel.php</exclude-pattern>
 	<exclude-pattern>*/Providers/*</exclude-pattern>
+	<exclude-pattern>*/Helpers/*</exclude-pattern>
 	<!-- Include the whole PSR-2 standard -->
 	<rule ref="PSR2"/>
 	<!--
